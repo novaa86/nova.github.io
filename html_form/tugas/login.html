@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="logo" href="image/anime.png" />
+    <title>Form Login</title>
+    <link rel="stylesheet" href="style1.css" />
+  </head>
+  <body>
+    <form action="#" class="login-form">
+      <h1 class="login-title">Login</h1>
+
+      <div class="input-group">
+        <i class="bx bx-user"></i>
+        <input type="text" placeholder="Username" />
+      </div>
+
+      <div class="input-group">
+        <i class="bx bx-lock-alt"></i>
+        <input type="password" placeholder="Password" />
+      </div>
+
+      <div class="input-remember">
+        <label for="remember">
+          <input type="checkbox" id="remember" />
+          Remember me
+        </label>
+        <a href="#">Forgot Password?</a>
+      </div>
+
+      <a href="tugas.html" class="login-btn">Login</a>
+
+      <p class="login-register">
+        Don't have an account?
+        <a href="register.html" class="login-link">Register</a>
+      </p>
+    </form>
+  </body>
+
+  <div class="greeting" id="greeting">Halo, selamat datang! 😊</div>
+
+  <script>
+    window.onload = function () {
+      let greet = document.getElementById("greeting");
+      setTimeout(() => {
+        greet.style.top = "50px";
+        greet.style.opacity = "1";
+      }, 500);
+    };
+  </script>
+
+</html>

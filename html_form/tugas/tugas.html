@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="logo" href="image/anime.png" />
+    <title>bintangnovala</title>
+
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+
+  <body>
+
+    <main>
+      <img src="image/logo kelas.jpg" class="image"/>
+    </main>
+
+    <sidebar class="sidebar">
+      <h3>Selamat datang</h3>
+      <p>informasi pekerjaan </p>
+
+      <!-- form nama -->
+       
+      <form class="form" >
+        <label for="fname"> nama lengkap </label>
+        <input
+          type="text"
+          id="fname"
+          name="fname"
+          placeholder="nama lengkap"
+        /><br /><br />
+
+        <!-- nama lengkap -->
+        <label for="email"> masukkan email  </label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Masukkan email anda"
+        />
+        <br />
+        <br />
+
+        <!-- masukkan no telpon -->
+        <label for="phone">Nomor Telepon</label>
+        <input
+          class="telp"
+          type="tel"
+          id="phone"
+          name="phone"
+          placeholder="Masukkan nomor telepon"
+        />
+
+        <!-- tanggal lahir -->
+        <label for="date" class="date">tanggal lahir</label>
+        <input type="date" id="date" value="tanggal lahir" "/><br />
+        <br />
+      </form>
+
+      <p class="konten">jenis kelamin </p>
+        <!-- pilih jenis kelamin -->
+        <form class="gender">         
+          <input type="radio" id="html" name="fav_language" value="laki laki" />
+          <label for="laki laki">laki laki</label><br />
+          <input type="radio" id="css" name="fav_language" value="perempuan" />
+          <label for="perempuan">perempuan</label><br/><br>
+        </form>
+
+        <!-- dropdown negara -->
+        <form class="dropdown">
+          <label for="country">Pilih Negara:</label>
+          <select id="country" name="country">
+            <option value="indonesia">Indonesia</option>
+            <option value="japan">Jepang</option>
+            <option value="usa">Amerika Serikat</option>
+            <option value="germany">Jerman</option>
+            <option value="france">Prancis</option>
+          </select>
+        </form>
+
+        <!-- submit -->
+        
+         <a href="employee.html" class="submit"> submit </a>
+       <!-- <button type="submit" <a href="employee.html"></a> submit </button> -->
+       <!-- <input type="submit" value="submit"> -->
+    </sidebar>
+  </body>
+
+  
+</html>

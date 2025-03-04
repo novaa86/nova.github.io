@@ -1,0 +1,142 @@
+body{
+  background-image: url("image/anime.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.image{
+  width: 20%;
+  margin: 240px;
+  border-radius: 20px;
+  float: left;
+  position: relative;
+  margin-top: 180px;
+}
+
+.sidebar{
+  display: flexbox;
+  position: relative;
+  background-color: #f5f5f5;
+  margin-top: 60px;
+  width: 500px;
+  height: 650px;
+  float: left;
+  border: 2px solid #f5f5f5;
+  border-radius: 10px;
+}
+
+
+
+ 
+.sidebar h3{
+  margin-left: 100px;
+  font-size: 16px;
+  text-align: center;
+  width: 280px;
+  display: flexbox;
+  margin-bottom: 10px;
+}
+
+.sidebar p{
+  font-size: 16px;
+  width: 280px;
+  margin-left: 100px;
+  text-align: center;
+  display: flexbox;
+  margin-top: -7px;
+  
+}
+
+.form {
+  margin: 20px;
+}
+
+.form input[type="text"],
+select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 50px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form input[type="email"],
+select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 35px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.telp {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 40px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.date{
+  width: 30%;
+  padding: 12px 5px;
+  margin: 8px 0;
+  display: inline-block;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.gender{
+  display: flex;
+ justify-content: center;
+ letter-spacing: 1.5px;
+}
+
+
+.gender input [type=radio]{
+  width: 50%;
+  padding: 20px 90px;
+  font-size: 10px;
+}
+
+
+
+.dropdown{
+  width: 80%;
+  padding: 12px 0px;
+  margin: 8px 40px;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+
+
+
+.submit {
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 110px;
+  margin: 8px 130px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.submit:hover {
+  background-color: #45a049;
+}
+
+
+
+
+
+
+

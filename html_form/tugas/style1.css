@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("image/anime.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.login-form {
+    background-color: rgba(64, 64, 64, 64, 0.15);
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    padding: 30px;
+    border-radius: 16px;
+    backdrop-filter: blur(25px);
+    text-align: center;
+    color: white;
+    width: 400px;
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.15);
+}
+
+.login-title {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.input-group {
+    margin: 20px 0;
+    position: relative;
+}
+
+.input-group input {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    padding: 12px 12px 12px 45px;
+    color: white;
+    border-radius: 99px;
+    outline: 3px solid transparent;
+    transition: 0.35s;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.input-group input ::placeholder {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.input-group input :focus {
+    outline: 3px solid rgba(255, 255, 255, 0.3);
+}
+
+.input-group ::-ms-reveal {
+    filter: invert(100%);
+}
+
+.input-group i {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 20px;
+}
+
+.input-remember {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    font-size: 15px;
+}
+
+.input-remember label {
+    display: flex;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.input-remember a {
+    color: white;
+    text-decoration: none;
+}
+
+.input-group a:hover {
+    text-decoration: underline;
+}
+
+.input-group button input {
+    accent-color: white;
+    cursor: pointer;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 12px 40px;
+    background: rgba(47, 156, 244, 1);
+    border: none;
+    border-radius: 99px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.login-btn:hover {
+    background: rgba(11, 135, 236, 1);
+}
+
+.login-register {
+    margin-top: 20px;
+    font-size: 15px;
+    color: white;
+}
+
+.login-register a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.login-register a:hover {
+    text-decoration: underline;
+}
+
+
+
+.greeting {
+    position: absolute;
+    top: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #ff4081;
+    color: white;
+    padding: 15px 30px;
+    font-size: 24px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    transition: all 1s ease-in-out;
+  }
+  

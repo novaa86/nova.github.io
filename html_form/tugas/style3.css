@@ -1,0 +1,123 @@
+body{
+    background-image: url("image/anime.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .image{
+    width: 20%;
+    margin: 240px;
+    border-radius: 20px;
+    float: left;
+    position: relative;
+    margin-top: 180px;
+  }
+  
+  .sidebar{
+    display: flexbox;
+    position: relative;
+    background-color: #f5f5f5;
+    margin-top: 60px;
+    width: 500px;
+    height: 650px;
+    float: left;
+    border: 2px solid #f5f5f5;
+    border-radius: 10px;
+  }
+  
+  
+  
+   
+  .sidebar h3{
+    margin-left: 100px;
+    font-size: 16px;
+    text-align: center;
+    width: 280px;
+    display: flexbox;
+    margin-bottom: 10px;
+  }
+  
+  .sidebar p{
+    font-size: 16px;
+    width: 280px;
+    margin-left: 100px;
+    text-align: center;
+    display: flexbox;
+    margin-top: -10px;
+    
+  }
+  
+  .form {
+    margin: 20px;
+  }
+  
+  .form input[type="text"],
+  select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .form input[type="email"],
+  select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 55px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .container{
+    
+    width: 20%;
+    display: flex;
+    margin-top: 30px;
+  
+  }
+
+  .checbox  {
+    position: relative;
+    float: right;
+    margin-top: -40px;
+    width: 60%;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    
+  }
+
+  .checbox label{
+    display: flex;
+    gap: 4px;
+    font-size: 13px;
+  }
+  
+  
+  .submit {
+    background-color: #4caf50;
+    color: white;
+    position: relative;
+    padding: 14px 110px;
+    margin: 30px 130px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .submit:hover {
+    background-color: #45a049;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
